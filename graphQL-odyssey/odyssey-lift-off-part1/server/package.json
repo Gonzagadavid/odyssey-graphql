@@ -6,9 +6,15 @@
   "scripts": {
     "start": "nodemon src/index"
   },
-  "dependencies": {},
+  "dependencies": {
+    "apollo-server": "^3.8.1",
+    "graphql": "^16.5.0"
+  },
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "nodemon": "^2.0.4"
   },
   "author": "Raphael Terrier @R4ph-t",
